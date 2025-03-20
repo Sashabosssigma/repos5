@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Високосные года</title>
+</head>
+<body>
+
+<h2>Поиск високосных годов</h2>
+<p>Введите начальный и конечный год:</p>
+
+<label for="startYear">Начальный год:</label>
+<input type="number" id="startYear">
+<br>
+<label for="endYear">Конечный год:</label>
+<input type="number" id="endYear">
+<br>
+<button onclick="findLeapYears()">Найти високосные года</button>
+
+<h3>Високосные года:</h3>
+<ul id="leapYearsList"></ul>
+
+<script src="js.js"></script>
+
+</body>
+</html>
